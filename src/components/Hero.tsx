@@ -34,14 +34,14 @@ function Hero() {
 
       <div className="flex items-center gap-4">
         <a
-          href="mailto:youremail@example.com"
+          href="mailto:arthgandhi2531@gmail.com"
           className="flex items-center justify-center w-10 h-10 rounded-lg border border-border text-text hover:border-accent hover:text-accent transition"
         >
           <FiMail size={20} />
         </a>
 
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/Arth253"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center w-10 h-10 rounded-lg border border-border text-text hover:border-accent hover:text-accent transition"
@@ -49,7 +49,7 @@ function Hero() {
           <FiGithub size={20} />
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/arth-gandhi-/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center w-10 h-10 rounded-lg border border-border text-text hover:border-accent hover:text-accent transition"
