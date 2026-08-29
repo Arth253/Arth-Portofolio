@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant light (&:where(.light, .light *));
+
+@theme {
+  --color-background: white;
+  --color-text: black;
+  --color-text-secondary: #4b5563;
+  --color-accent: #9333ea;
+  --color-accent-hover: #7e22ce;
+  --color-border: #e5e7eb;
+}
+
+.light {
+  --color-background: white;
+  --color-text: black;
+  --color-text-secondary: #4b5563;
+  --color-accent: #9333ea;
+  --color-accent-hover: #7e22ce;
+  --color-border: #e5e7eb;
+}
+
+.dark {
+  --color-background: black;
+  --color-text: white;
+  --color-text-secondary: #9ca3af;
+  --color-accent: #c084fc;
+  --color-accent-hover: #d8b4fe;
+  --color-border: #1f2937;
+}
+
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling globally for all #href clicks */
+    @apply bg-background;
+}
+
+/* Adds smooth dark/light mode transitions to every component automatically */
+* {
+    @apply transition-colors duration-500;
+}
