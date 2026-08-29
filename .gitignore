@@ -144,3 +144,6 @@ vite.config.ts.timestamp-*
 
 # Notes file
 Ideas.txt
+
+# Mac System file
+.DS_Store
